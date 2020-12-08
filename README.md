@@ -6,9 +6,7 @@
 > SpringBoot + Spring Security + Spring Data JPA + OAuth2 + AWS
 
 ## JPA Process
-> 2020.12.04
 > ![JPA_흐름 정리](https://user-images.githubusercontent.com/20346879/101376309-c51aac00-38f3-11eb-8c92-485814d9e90b.jpg)
 
 ## OAuth2_Google
-> 2020.12.08
 > ![OAuth2_Google연동](https://user-images.githubusercontent.com/20346879/101376443-f0050000-38f3-11eb-82a3-f1b3d96f31ec.jpg)
