@@ -1,5 +1,6 @@
 package com.example.board.board_test.web;
 
+import com.example.board.board_test.config.auth.LoginUser;
 import com.example.board.board_test.config.auth.dto.SessionUser;
 import com.example.board.board_test.service.posts.PostsService;
 import com.example.board.board_test.web.dto.PostsResponseDto;
@@ -20,10 +21,12 @@ public class indexController {
     private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model, @LoginUser SessionUser user){
 
         model.addAttribute("posts",postsService.findAllDese());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+
+//        SessionUser user = (SessionUser) httpSession.getAttribute("user"); ->@LoginUser SessionUser user로 대체
+
         if(user != null){
             model.addAttribute("userName",user.getName());
             model.addAttribute("email",user.getEmail());
