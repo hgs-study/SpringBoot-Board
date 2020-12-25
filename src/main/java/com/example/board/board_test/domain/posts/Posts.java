@@ -9,7 +9,7 @@ import javax.persistence.*;
 
 @Getter //lombok annotation
 @NoArgsConstructor // lombok annotation
-@Entity // JPA annotation d
+@Entity // JPA annotation dd
 public class Posts extends BaseTimeEntity {
 
     @Id
