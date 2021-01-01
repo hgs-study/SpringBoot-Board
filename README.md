@@ -10,3 +10,6 @@
 
 ## OAuth2_Google
 > ![OAuth2_Google연동](https://user-images.githubusercontent.com/20346879/101376443-f0050000-38f3-11eb-82a3-f1b3d96f31ec.jpg)
+
+## AWS Setting_01
+> ![AWS_연동#1](https://user-images.githubusercontent.com/76584547/103170879-24ccfd00-488b-11eb-8a25-9e149950f92a.jpg)
