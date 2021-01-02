@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.example.board'
 version = '0.0.1-SNAPSHOT'
-//sourceCompatibility = '1.8'
+sourceCompatibility = '1.8'
 
 configurations {
     compileOnly {
@@ -16,6 +16,7 @@ configurations {
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -27,9 +28,10 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-oauth2-client'
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
 
-test {
-    useJUnitPlatform()
+    compile 'org.springframework.session:spring-session-jdbc:2.1.9.RELEASE'
+    compile 'org.mariadb.jdbc:mariadb-java-client'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testCompile "org.springframework.security:spring-security-test"
 }
