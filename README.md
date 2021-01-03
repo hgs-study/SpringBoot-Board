@@ -13,3 +13,6 @@
 
 ## AWS Setting_01
 > ![AWS_연동#1](https://user-images.githubusercontent.com/76584547/103170879-24ccfd00-488b-11eb-8a25-9e149950f92a.jpg)
+
+## AWS Setting_02 (CI & CD)
+> ![AWS_연동#2 (CI CD 구성)](https://user-images.githubusercontent.com/76584547/103476940-366b5300-4dfd-11eb-96f8-43a45f1aba27.jpg)
