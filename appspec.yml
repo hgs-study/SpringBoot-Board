@@ -1,0 +1,6 @@
+version: 0.0 #CodeDeploy 버전, 프로젝트 버전이 아니므로 0.0외에 버전을 사용하면 오류
+os: linux
+files:
+  - source: / #CodeDeploy에서 전달해 준 파일 중 destination으로 이동 시킬 대상 지정, 현재 루트 경로(/)
+    destination: /home/ec2-user/app/step3/zip/ #source에서 지정된 파일을 받을 위치, 이후 Jar를 실행하는 등은 destination에서 옮긴 파일들로 진행
+    overwrite: yes # 기존에 파일들이 있으면 덮어 쓸지를 결정
