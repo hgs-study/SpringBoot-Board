@@ -25,7 +25,7 @@ public class indexController {
 
         model.addAttribute("posts",postsService.findAllDese());
 
-//        SessionUser user = (SessionUser) httpSession.getAttribute("user"); ->@LoginUser SessionUser user로 대체
+//        SessionUser user = (SessionUser) httpSession.getAttribute("user"); ->@LoginUser SessionUser user로 대체 d
 
         if(user != null){
             model.addAttribute("userName",user.getName());
